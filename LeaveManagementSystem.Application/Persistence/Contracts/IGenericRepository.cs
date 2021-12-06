@@ -15,8 +15,8 @@ namespace LeaveManagementSystem.Application.Persistence.Contracts
 
         Task<bool> Exists(int id);
 
-        Task<T> UpdateAsync(T entity);
+        Task UpdateAsync(T entity);
 
-        Task<T> DeleteAsync(T entity);
+        Task DeleteAsync(T entity);
     }
 }
